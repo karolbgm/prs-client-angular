@@ -14,6 +14,10 @@ import { UserViewComponent } from './prs/user/user-view/user-view.component';
 import { UserChangeComponent } from './prs/user/user-change/user-change.component';
 import { UserCreateComponent } from './prs/user/user-create/user-create.component';
 import { UserLoginComponent } from './prs/user/user-login/user-login.component';
+import { VendorListComponent } from './prs/vendor/vendor-list/vendor-list.component';
+import { VendorViewComponent } from './prs/vendor/vendor-view/vendor-view.component';
+import { VendorCreateComponent } from './prs/vendor/vendor-create/vendor-create.component';
+import { VendorChangeComponent } from './prs/vendor/vendor-change/vendor-change.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { UserLoginComponent } from './prs/user/user-login/user-login.component';
     UserViewComponent,
     UserChangeComponent,
     UserCreateComponent,
-    UserLoginComponent
+    UserLoginComponent,
+    VendorListComponent,
+    VendorViewComponent,
+    VendorCreateComponent,
+    VendorChangeComponent
   ],
   imports: [
     BrowserModule,FormsModule,
