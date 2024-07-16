@@ -12,7 +12,7 @@ export class UserViewComponent {
 
   isReadonly = true;
   isHidden = true;
-  user: User = new User(); //property type user. We have to assign it to new User
+  user: User = new User(); //property type user. We have to assign it to new User. //creating an empty instance
   verifyRemove: boolean = false;
 
  constructor(
